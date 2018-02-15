@@ -11,7 +11,7 @@ require 'nokogiri'
       studs_links.each do |stud_link|
         stu[:name] = stud_link.css("h4").text
         stu[:profile_url] = stud_link.attr("href")
-        stu[:loaction] = stud_link.css("p").text
+        stu[:location] = stud_link.css("p").text
         student_hashes << stu
       end
       student_hashes
