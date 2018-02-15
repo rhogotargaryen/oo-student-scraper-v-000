@@ -15,9 +15,6 @@ require 'nokogiri'
         student_hashes << stu
       end
       student_hashes
-
-      binding.pry
-
     end
 
     #def self.index_to_param(index_url)
